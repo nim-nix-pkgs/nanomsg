@@ -11,7 +11,6 @@
   inputs.src-nanomsg-master.ref   = "refs/heads/master";
   inputs.src-nanomsg-master.owner = "def-";
   inputs.src-nanomsg-master.repo  = "nim-nanomsg";
-  inputs.src-nanomsg-master.dir   = "";
   inputs.src-nanomsg-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
